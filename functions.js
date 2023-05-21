@@ -26,7 +26,7 @@ function getChannelName(channel) {
  ****************************************************************/
 function numberOfVideos(channel) {
   // Your code here
- return channels.video.length;
+ return channels.videos.length;
 }
 console.log(numberOfVideos(channels[0]))
 
@@ -70,9 +70,9 @@ console.log(getChannelByName("PowerfulJRE", channels))
  *
  * BONUS: use iteration methods `.find()` and `.some()`
  ****************************************************************/
-function getChannelByVideoTitle(videoTitle, channels) {
+function getChannelByVideoTitle(videosTitle, channels) {
   // Your code here
-  return channels.find ((channel)=> channel.videis.find ([vidieo]=> vidieo.title === vidieo.title))
+  return channels.find ((channel)=> channel.videis.find (vidieos=> vidieos.title === vidieos.title))
 }
  console.log(getChannelByVideoTitle("The Universal S", channels));
 
